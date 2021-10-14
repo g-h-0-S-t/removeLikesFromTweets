@@ -1,4 +1,4 @@
-<img src="https://freepngimg.com/thumb/terminator/21148-9-terminator-picture.png" width="200" />  
+<img src="https://freepngimg.com/thumb/terminator/21148-9-terminator-picture.png" width="200" title="Bot" alt="Bot" />  
 
 # removeLikesFromTweets
 A simple JS file to remove your likes from tweets.
