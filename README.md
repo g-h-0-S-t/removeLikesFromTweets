@@ -1,3 +1,5 @@
+<img src="https://freepngimg.com/thumb/terminator/21148-9-terminator-picture.png" width="200" />  
+
 # removeLikesFromTweets
 A simple JS file to remove your likes from tweets.
 
