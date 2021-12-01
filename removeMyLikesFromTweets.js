@@ -1,3 +1,5 @@
+javascript:
+
 'use strict';
 
 /* MIT License
@@ -22,12 +24,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE. */
 
-var unlikeTweets = function () {
-	window.scrollBy(0, 10000);
-	document.querySelectorAll('[data-testid="unlike"]').forEach(function (v, i, a) {
-		v.click();
-	});
-	setTimeout(unlikeTweets, 0);
-}
+(function () {
+    var unlikeTweets = function () {
+        window.scrollBy(0, 10000);
+        document.querySelectorAll('[data-testid="unlike"]').forEach(function (v, i, a) {
+            v.click();
+        });
+        setTimeout(unlikeTweets, 0);
+    };
 
-unlikeTweets();
+    unlikeTweets();
+})();
